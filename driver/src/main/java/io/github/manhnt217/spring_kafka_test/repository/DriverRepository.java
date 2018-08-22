@@ -39,7 +39,7 @@ public class DriverRepository {
 			if (driverPool.size() == 0) {
 				return Driver.NO_ONE;
 			}
-			return driverPool.remove((int) Math.random() * driverPool.size());
+			return driverPool.remove((int) (Math.random() * driverPool.size()));
 		}
 	}
 }
